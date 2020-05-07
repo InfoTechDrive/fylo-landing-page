@@ -81,3 +81,60 @@ svg{
     margin: 0;
     padding: 0;
 }
+p.productive{
+    padding-right: 100px;
+}
+div.testimonies{
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    border-radius: 5px;
+}
+div.testimonies>p{
+    font-size: 14px;
+    line-height: 0.3in;
+}
+.ceo-info{
+    display: flex;
+    align-items: center;
+}
+.ceo-info img{
+    border-radius: 50%;
+    width: 62.5px;
+    height: auto;
+    margin-right: 10px;
+}
+.ceo-info h3{
+    margin: 0;
+}
+#see-fylo{
+    color: #3DA08F;
+}
+section.get-early-access{
+    background-color: hsl(238, 22%, 44%);
+}
+section.get-early-access h2,
+section.get-early-access p{
+    color: #fff;
+}
+section.get-early-access input{
+    border-radius: 2px;
+    width: 400px;
+    height: 37px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.get-early-access button{
+    padding: 10px 40px;
+}
+.flex-access{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-access>div{
+    padding-right: 170px;
+}
