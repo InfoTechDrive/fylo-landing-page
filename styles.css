@@ -1,3 +1,4 @@
+@import url(./mobile.css) all and (max-device-width: 375px);
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Raleway:wght@400;700&display=swap');
 *{
     box-sizing: border-box;
@@ -9,15 +10,12 @@ body{
 h1,h2, h3{
     font-family: 'Raleway', 'Open Sans';
     font-size: 2.2em;
-    color: hsl(243, 87%, 12%);
-}
-p{
-    color: hsl(243, 87%, 12%);
+    /* color: hsl(243, 87%, 12%); */
 }
 .wrapper{
     max-width: 100%;
     width: 1440px;
-    padding: 20px;
+    padding: 30px;
     margin: 0 auto;
 }
 img{
@@ -33,6 +31,9 @@ img{
 }
 header{
     margin-bottom: 200px;
+}
+form{
+    display: flex;
 }
 nav{
     display: flex;
@@ -55,10 +56,12 @@ nav ul li a{
 button{
     border: 1px solid  hsl(224, 93%, 58%);
     background-color: hsl(224, 93%, 58%);
-    padding: 10px 60px;
-    border-radius: 2px;
-    color: #fff;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 2px;
+    margin-left: 10px;
+    flex: 0.3;
+    color: #fff;
 }
 .hd-input{
     width: 50%;
@@ -112,14 +115,19 @@ div.testimonies>p{
 #see-fylo{
     color: #3DA08F;
 }
-section.get-early-access{
+.get-early-access{
     background-color: hsl(238, 22%, 44%);
+    color: #fff !important;
+    padding: 50px 0;
 }
-section.get-early-access h2,
+.get-early-access form input{
+    flex: 1;
+}
+/* section.get-early-access h2,
 section.get-early-access p{
     color: #fff;
-}
-section.get-early-access input{
+} */
+/* section.get-early-access input{
     border-radius: 2px;
     width: 400px;
     height: 37px;
@@ -135,6 +143,31 @@ section.get-early-access button{
     justify-content: space-between;
     align-items: center;
 }
-.flex-access>div{
-    padding-right: 170px;
+.flex-access>div{section.get-early-access
+    padding-right: 20%;
+} */
+footer{
+    background-color: hsl(243, 87%, 12%);
+}
+.flexC{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+.flex-ft{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+footer ul{
+    display: flex;
+    list-style-type: none;
+    /* padding: 0; */
+}
+footer ul li{
+    margin-left: 10px;
+}
+footer a{
+    text-decoration: none;
+    color:#fff;
 }

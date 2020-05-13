@@ -1,0 +1,28 @@
+img{
+    max-width: 35%;
+}
+nav {
+    margin: 0 0 100px 0;
+}
+nav ul li{
+    margin-left: 10px;
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+header>div.wrapper>div.flex{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+header>div.wrapper>div.flex>div>img{
+    max-width: 100%;
+}
+.hd-p {
+    font-size: 15px;
+}
+h1,h2{
+    font-family: 'Raleway', 'Open Sans';
+    font-size: 23px;
+    font-weight: bold;
+    color: hsl(243, 87%, 12%);
+}
