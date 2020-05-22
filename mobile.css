@@ -1,21 +1,59 @@
+div{
+    max-width: 100%;
+}
 img{
-    max-width: 35%;
+    max-width: 100%;
 }
 nav {
     margin: 0 0 100px 0;
+}
+nav img{
+    max-width: 30%;
 }
 nav ul li{
     margin-left: 10px;
     font-family: 'Raleway';
     font-size: 14px;
 }
-header>div.wrapper>div.flex{
+header{
+    margin-bottom: 10px;
+}
+header div.wrapper>div.flex{
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
 }
 header>div.wrapper>div.flex>div>img{
     max-width: 100%;
+}
+.flexS{
+    display: flex;
+    flex-direction: column-reverse;
+}
+p.productive{
+    padding: 0;
+}
+.hd-input {
+    width: 100%;
+    height: 47px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+header form{
+    display: flex;
+    flex-direction: column;
+}
+button {
+    border: 1px solid hsl(224, 93%, 58%);
+    background-color: hsl(224, 93%, 58%);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 2px;
+    flex: 1;
+    color: #fff;
+    margin: 0;
 }
 .hd-p {
     font-size: 15px;
@@ -25,4 +63,22 @@ h1,h2{
     font-size: 23px;
     font-weight: bold;
     color: hsl(243, 87%, 12%);
+}
+div.flex-ft{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+div.flexS.flex h2, a#see-fylo{
+    display: block;
+    text-align: center;
+}
+
+.get-early-access>div.wrapper>div.flex, 
+.get-early-access>div.wrapper>div.flex form{
+    flex-direction: column;
+}
+
+footer{
+    max-width: 100%;
 }
